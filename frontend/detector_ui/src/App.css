@@ -1,0 +1,33 @@
+#root {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  max-width: none;
+  text-align: initial;
+}
+
+.app-shell {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: #111;
+  overflow: hidden;
+}
+
+.video-stream {
+  width: 60%;
+  max-width: 90%;
+  border-radius: 12px;
+  box-shadow: 0 0 30px rgba(0, 255, 0, 0.3);
+  transform: scaleX(-1);
+}
+
+.app-status {
+  color: #aaa;
+}
